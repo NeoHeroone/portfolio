@@ -1,10 +1,10 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link, useNavigate } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import AboutMe from "./components/AboutMe";
-import Asosiy from "./components/asosiy";
 import Contact from "./components/Contact";
-import Navbar from "./components/navbar";
 import './App.css'
+import Navbar from "./components/navbar";
+import Asosiy from "./components/asosiy";
 
 function App() {
   return (
